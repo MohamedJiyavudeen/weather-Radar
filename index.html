@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Radar App</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather Radar</h1>
+        <div id="map"></div>
+        <div class="controls">
+            <button onclick="showLayer('clouds_new')">Cloud</button>
+            <button onclick="showLayer('wind_new')">Cyclone</button>
+            <button onclick="showLayer('precipitation_new')">Rain</button>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
